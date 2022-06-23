@@ -12,8 +12,8 @@ jobs:
       - name: Build container
         uses: docker/build-push-action@v1
         with:
-          username: RZX5678
+          username: rzx5678
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
-          repository: RZX5678/publish-packages/game
+          repository: rzx5678/publish-packages/game
           tag_with_sha: true

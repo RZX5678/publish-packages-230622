@@ -15,5 +15,5 @@ jobs:
           username: RZX5678
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
-          repository: rzx5678/publish-packages/game
+          repository: RZX5678/publish-packages/game
           tag_with_sha: true
